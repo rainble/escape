@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="100" tilewidth="4" tileheight="4">
+ <tileset firstgid="1" name="map" tilewidth="4" tileheight="4">
+  <image source="map.png" width="320" height="800"/>
+ </tileset>
+ <tileset firstgid="16001" name="meta_tiles" tilewidth="4" tileheight="4">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="67">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="地板" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2DlSlkEYReH+f5y2g4qSoqCmKg7bEhlMG3DYliOkzobeNXzRPVUnuNGTvlVdfVZjjHW2kV3JrmbXsuvZjWyl6wv8cfYke5rtZ8+y59mL7KWuL/SZnWZn2Xn2NnuXvc8+6PpC/579yH5mv7Lf2Z/sb/ZP1xf6Th7Ie9n9bDfbyx5kD7NHK11f5q+yg+x1dpgdZcfZSfZG1xf6x+xT9jn7kn3NvmUX2aWuL/TNfBJvZrey29lWdie7m22vdX2Z57Qq+4fO9tb+obN9js7+obO9tX/obG/tHzrbW/uHzvbW/qGzvbV/6GzPaVX2D53trf1DZ/scnf1DZ3tr/9DZ3to/dLa39g+d7a39Q2d7a//Q2Z7TquwfOttb+4fO9jk6+4fO9tb+obO9tX/obG/tHzrbW/uHzvbW/qGzPadV2T90trf2D53tc3T2D53trf1DZ3tr/9DZ3to/dLa39g+d7a39Q2d7Tquyf+hsb+0fOtvn6OwfOttb+4fO9tb+obO9tX/obG/tHzrbW/uHzvacVmX/0Nne2j90ts/R2T90trf2D53trf1DZ3tr/9DZ3to/dLa39g+d7Tmtyv6hs721f+hsn6Ozf+hsb+0fOttb+4fO9tb+obO9tX/obG/tHzrbc1qV/UNne2v/0Nk+R2f/0Nne2j90trf2D53trf1DZ3tr/9DZ3to/dLbntCr7h8721v6hs32Ozv6hs721f+hsb+0fOttb+4fO9tb+obO9tX/obM9pVfYPne2t/UNn+xyd/UNne2v/0Nne2j90trf2D53trf1DZ3tr/9DZntOq7B8621v7h872OTr7h8721v6hs721f+hsb+0fOttb+4fO9tb+obM9p1XZP3S2t/YPne1zdPYPne2t/UNn+382JKFh
+  </data>
+ </layer>
+ <layer name="墙面" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1jeOFGEUhdE/YqYHm+JJ8WwHT4onxbMdPCmeFE86+G3guYv4q/pN9znSF12p6kmV1PKq1j6mT+lz+pK+pm/pe1oecB/y2Sttn+YtQzx750Jru9LutCftTfvS/nRgYdh9mu+uts/ad7iYLqXL6Uq6mq6l6+nGwPs0311tn7Xv8DK9Sq/Tm/Q2vUvv04eB92m+u9o+a9+h0j/GPO9V7ui1V/rHmOe9yh299kr/GPO8V7mj117pH2Oe9yp39No3Lra2KW1OW9LWtC1tTzsW7WPtVe7otZ9Mp9LpdCadTefS+XTBPtpe5Y5e+8P0KD1OT9LT9Cw9Ty/so+1V7ui1TyatLaXVaU1am9al9WnDxD7WXuWOXvvBdCgdTkfS0XQsHU8n7KPtVe7otd9Mt9LtdCfdTffS/fTAPtpe5Y5e+4/0M/1Kv9Of9Df9S23JPtZe5Y5eOwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAry3+cUt2G
+  </data>
+ </layer>
+ <layer name="墙" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt26uOFFEUQNFrIczwNGDA8v4eMGDBgOX9PaCwYMCCgd8BxRFTyXxA7TSZrJWcVMp0upOTzq7O7R8X1vo5A3v4dXmt3zPXj9a6cXTod8NZcfPKWrdmns1OPbdX7OTF7NTLmS+zU1/tFTvZvq/OHa91/vjQ74azYvu+ejQ79dhesZNvs1PfZz7OTn2yV+zk4tW1Ls38mZ36a6/YyfY7g+dB9rR1u+dB9rR1u+dB9rR1u+dB9rR1u+dB9qTbKeh2Clu3AwAAAAAA8H9yToaCczIUnJOh4JwMBefb2ZPz7RScb6fgfDsF59sp+F8qBd1OQbdT0O0UdDsF3U5Bt1PQ7RR0OwXdTkG3U9DtFHQ7Bd1OQbdT0O0UdDsF3U5Bt1PQ7RR0OwXdTkG3U9DtFHQ7Bd1OQbdT0O0UdDsF3U5Bt1PQ7RR0OwXdTkG3U9DtFHQ7Bd1OQbdT0O0UdDsF3U5Bt1PQ7RR0OwXdTkG3U9DtFHQ7Bd1OQbdT0O0UdDsF3U5Bt1PQ7RR0OwXdTkG3U9DtFHQ7Bd1OQbdTeDI79XTm9rT7nZm7M/dOXe/PPHCf3hevfcjP8/BkPs9evZrr65k3M29PXd/NvHef3hevfcjP8+Fk1rW1/gHTbCFp
+  </data>
+ </layer>
+ <layer name="家具" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="桌上物品" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1kds1mUAx/EHEiBhRqZhdkLp9KhQwKNCh2dm3Akzsi2jxolMj9rpUenyzIxMw4xsCy0etdOj0uXXE+3rWwi+gdeW7zf5HP55n/77vMnv8IZgZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmb/l75LC+F7HEYVqlGDWtThh7R439AGYn+ym7/wAB3oRBe60fPPpubG+4b2LBuJURiNMRiLcVHOjUrkDMZgLMYl9v38NXbzOhZjCfKQjwIU4g139Vy1FMuwHCuwEquinFvGjpZjBVZiVcSuvmY336AEpShDOSpQiW/d1aDp42EhfIJP8Rk+xxfYM+zhmcOoQjVqUIu6KO+qYkfVqEEt6iJ29Ru7+R1NaEYLWtGGdvzhrgZN19jPddzATdzCbdzptasH6EAnutCNnijv6mBHnehCN3oidvVyegivYB7mIxcLsBCL8Gr60/qW9qxLGh5CMlKQitmYg7ThD88sHsLvIeQhHwUoHPLvdy1J4gzyUYDCpL6f72E3X2Iv9mE/DuAgDuErdzVo2sh+NmEztmArtmF7r12VsKFSlKEcFaiMsqtSdlSGclSgMmJXd9jNL6jHXdxDAxpxH7+6q0HTKfZzGmdwFudwHj/12lUTG2pGC1rRhvYou2pmRy1oRRvaI3aVlhHCXKQjA5nIQjZy8FLG0/2u9uwaPyKECZiISZiMKXhxxMMz84byewi5WICFWDT0yf/XdnbzIYqwAzuxC7tRjI/c1XPVXja0D/txAAdx6D/syszMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzJ5e9Vkh3MU9NKAR97P6nvmZ52u4jhu4iVu4nRX9nWbp2SFkIBNZyEZOdt8ziTwnIRkpSMVszMmO/k6zIraxAzuxC7tRHLGXD3jeiE3YjC3Yim3uyvrpAtu4iEu4jCu4GrGXH3k+hdM4g7M4h/Puyvppak4I0zAdMzATs3L6nnmB5/GYgImYhMmYkhP9nWar2cYarMU6rMeGiL28yfNbeBvv4F28h/fdlfXTEbZxFMdwHCdw0r2YmZmZmT1xhxNCqEI1alCLuoR43sgGQw8SQuhAJ7rQjZ6EeN7IBkOLE0NYgjzkowCFiY//O7NHVcKGSlGGclSg0l1ZjDWxoWa0oBVtaHdXFmPzkkKYj1wswEIsSnr835k9qr1saB/24wAO4pC7shirZ0N3cQ8NaMR9d2Uxlp4cQgYykYVs5CTH+1Y20CtiQzuwE7uwG8XuymLsAhu6iEu4jCu46q4sxqamhDAN0zEDMzErJd63soHeaja0BmuxDuuxwV1ZjB1hQ0dxDMdxAifdlcXYyNQQRmE0xmAsxqXG+1Y20FvKhpZhOVZgJVa5KzMzMzOLob8BUOUArQ==
+  </data>
+ </layer>
+ <layer name="厨房墙面" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0TduVWEUhdG/8nuX3Jrcmjwdk1uDDbQmT8fk1oANrcmtyUNhj+DoSn9zhdaSvmpLpzmtAQAAAAAAAAAAAAAAAAAAwP9ld6G17+lH+pl+pd/pz0K9/e3cd0fs1W2mbWnW2ql0Op1JZ9O5dH5Wbxc696URe3WbaVvPj+6me+l+epAepkezenvcua+P2KvbTNtOfvQhfUyf0uf0JX2d1du3zn1nxF7dZtoW560dTkfS0XQsHU8n5vV2snNfHLFXt5m2lfzoRrqZVtNaupVuz+vtTue+MmKvbjNtm/nR6/QmvU1baTu9m9fb+859c8Re3WbahqG1PWlv2pf2pwPp4FBvhzr3YcRe3WbalvOji+lSupyupKvp2lBv1zv35RF7dZtp28iPnqSn6Vl6nl6kl0O9vercN0bs1W0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAyj/94uSP
+  </data>
+ </layer>
+ <layer name="厨房墙" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3T1KBDEYgOHUVq5ewOu4uj9H8YgewSNtYBsbG/ElEp4HvmZmimEI5C0CMwYAAAAAAAAAAAAAAAAAAMA6rw9jHOe8zXmfc5pznnP54dr1D579fv03978Oq78aO3p5Wv0G7OjDuiLwaV0ReHxe/QbsSLdT0O0UdDsF3U5Bt1PQ7RR0OwXdTkG3U9DtFHQ7Bd1OQbdT0O0UdDsF3U5Bt1PQ7RR0OwXdTkG3U9DtFHQ7Bd1OQbdT0O0UdDsF3U5Bt1PQ7RR0OwXdDgAAAADAf+N/XnDnPAMF5xko2AcpOM9AwTlkCrqdgm6noNsp6HYKup2Cbqeg2ynodgq6nYJ9kIJ9kIJ9EAAAAAAA2N0NrEM6oQ==
+  </data>
+ </layer>
+ <layer name="厨房设备" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="厨房物品" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2TeSVQcURdEnEN52gxADoGEs2CbFI/yU8KR4JLxnOnhSaIw2KeFLfv1iraqd3+BkdxgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDfzcyWYZitDbWx/qpN9Xdt3jLp65hW/7SdY3W8TtTJOlWn64xdMdK/bee/ulv36n49qIf1yK4Y6Y+5YVhUi+vPWlJLa1ktn5v0dQAAAAAAAAD86vHcMDypp/WsnteLelmv/HkZacXWYVhZq2p1ram1ta7Wb530dUyrfW1nfx2og3WoDteROmpXjHS17Vyr63Wjbtatul137IqRPredL7VQX+tbfa8fPze1bdLXMa22t50dtbN21e7aU/O1164Y6WzbOVfn60JdrEt1ua7YFSO9bjtv6m29q/f1oT7WJ7tihMczw/Ckntazel4v6mW9mpn0dUyrFbPDsLJW1epaU2trXa2fnfR1TKt9bWd/HaiDdagO15E6aleMdLXtXKvrdaNu1q26XXfsipE+t50vtVBf61t9rx8/N7Vh0tcxrba3nR21s3bV7tpT87XXrhjpbNs5V+frQl2sS3W5rtgVI71uO2/qbb2r9/WhPtYnuwIAAAAAAAAAAAAAAAAAAAB+c/8DWEJkew==
+  </data>
+ </layer>
+ <layer name="门" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0TVyFmAYhdEPZxs4kQanRQK0BN0GTovTQrA2WLINkiAtTovT4pTcRfDyzfxzzsxT3+K2BsC/MG+otflpQVqYFqXFaUlaOjS429Tam//G0760Px1IB9OhdLj4257b1JrMf7fTnXQ33Uv301SaLv625za1vua/b+l7+pF+pl/pd/pT/G3PbWptG25te9qRdqaxtCvtTnuGB3ebWlfy39U0ka6l6+lGupluFX/bc5tab/Pfu/Q+fUgf06f0OX0p/rbnNrXWjbS2Pm1IG9OmtDltSVtHBnebWmfy39l0Lp1PF9LFdCldLv625za1nua/Z+l5epFeplfpdXpT/G3PbWotG21teVqRVqZVaXVak9aODu42tY7kv6PpWDqeTqST6VQ6Xfxtz21qPch/M2k2zaWH6VF6nJ4Uf9tzGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+p79qzowZ
+  </data>
+ </layer>
+ <layer name="厕所地板" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2jlOllEYhuHT4ipU+NHSESjBkeWIOFDibKk4bkFFcSmIopSKqGzB2ccN/BQk5j3mupK7OvmqU5zkydcaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/4Pp0dZm0ol0Mp1Kp9OZdDbNFj2ntju5o7tpKd1L99OD9DA9So+LnlPb+9zRh7SZPqat9Cl9Tl/SdtFzajs01trhdCQdTcfS8TSRJtNU0XNqW8wdXUlX07V0Pd1IN9OtdLvoObWt5o5epbX0Or1J6+ltepc2ip5T295Ba/vS/jSaxtIgjacD6WDRc2o7lzt6MtLa0/QsLafn6UVaSS9Hhp/v5tth5zt9R31fc0/f0vf0I/1Mv9Lvv/e3Z/j5br4ddr7Td9RXcUewM/Sv4o5gZ+hfxR3BztC/ijuCnaF/FXcEO0P/5nJP59N8upAupkvpcloY1Dynvor/K/ifoX8VdwQ7Q/8q7gh2hv5V3BHsDP2ruCPYGfpXcUewM/Sv4o5gZ+hfxXfOO9i/iu+cd7B/Fd857yAA/8IfDizmrA==
+  </data>
+ </layer>
+ <layer name="厕所设备" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1jdQFGEAR/HVTiXUKnBnFu6AWiT0xlpiLbGWWEvsjbXEWmItsZbYS6rNvk7mhitOWFzx/WZewcw3t1/xH3aDQJIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSf+jO7EgKKO7VE4VVElVsfCeee9aENynB/SQHtHja+E9TyfvOfvppT7qpwEapKEQd/WCDb2kV/Sa3tBbd3WqfGQ/q7RG67RBm7QV4q4+saFt2qFd2qN9d3WqFMaDoIgSlKRiKqHSeHjPLLvOe5fKqYIqqep6eM/T8bh3m+8XekAP6RE9vn342WfxIGinDuqkLuqmnnh49+tlQ33UTwM0SEPuKvJesKGX9Ipe0xt6m2ZXH+JBME8LtEhLtEwr8fDut8qG1midNmiTttxV5H1iQ9u0Q7u0R/tpdnXxShBcosuUR/lUQLEr4dyt8AbvXUpQkoqphEpvhPM8HZ+yQr5fqJwqqJKqCg8/+5T9NFITNVMLtVJbSLt6xn7aqYM6qYu6qcddRV4vG+qjfhqgQRpKs6v37GeSpmiaZmiW5g7sapt2aJf2MrzLfsrfH9jPPC3QIi3RMq24q8hbZUNrtE4btElbaXZ17moQnKcLlEXZlEO5V3+fuXuG/31UQZVnMrtLVcr5izd579JlyqN8KqDYzcx+VyevqIjvF0pSMZVQadHhZ5+wn2qqoVqqo3pqOLCrPrbRTwM0mOGuhlLOP2U/jdREzdRCrdTmriKvnQ11UCd1UTf1pNnVO/YzTCM0SmM0ThMHdrXGNtZpgzYz3NVWyvn37GeSpmiaZmiW5txV5M2zoQVapCVappU0u/rMfr7QV/pG3+kH/Tywq8RZ/vdRMZWczewupSnnz93ivUsXKIuyKYdyb2X2uzp5lxJ8v1Ae5VMBxRJ//nsdbKOTuqg7w131pJx/wn6qqYZqqY7qqcFdRV4jG2qiZmqhVmo7wq6O0zv2M0wjNEpjNE4T7iryJtnQFE3TDM3SXER29Zn9fKGv9I2+0w/66a4i73yS7xfKomzKodzk376V/nXVbKiGaqmO6qnBXemIhtnQCI3SGI3ThLuSJEmSJEmSdEr9AlJAyTI=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="150" height="100">
+  <object name="yellowKey" x="329" y="357" width="43" height="34">
+   <properties>
+    <property name="id" value="1001"/>
+   </properties>
+  </object>
+  <object name="diaryCorner" x="409" y="297" width="36" height="49">
+   <properties>
+    <property name="id" value="1002"/>
+   </properties>
+  </object>
+  <object name="videoTape" x="551" y="274" width="45" height="49">
+   <properties>
+    <property name="id" value="1003"/>
+    <property name="need" value="黄钥匙"/>
+   </properties>
+  </object>
+  <object name="pukepai" x="188" y="131" width="44" height="55">
+   <properties>
+    <property name="id" value="1004"/>
+   </properties>
+  </object>
+  <object name="redKey" x="9" y="128" width="47" height="58">
+   <properties>
+    <property name="id" value="1005"/>
+   </properties>
+  </object>
+  <object name="blueKey" x="555" y="327" width="40" height="39">
+   <properties>
+    <property name="id" value="1006"/>
+    <property name="need" value="密码"/>
+   </properties>
+  </object>
+  <object name="mask" x="353" y="7" width="27" height="75">
+   <properties>
+    <property name="id" value="1007"/>
+   </properties>
+  </object>
+  <object name="book" x="429" y="38" width="44" height="55">
+   <properties>
+    <property name="id" value="1008"/>
+   </properties>
+  </object>
+  <object name="food" x="11" y="237" width="34" height="43">
+   <properties>
+    <property name="id" value="1009"/>
+   </properties>
+  </object>
+  <object name="mark" x="511" y="157" width="49" height="21">
+   <properties>
+    <property name="id" value="1010"/>
+   </properties>
+  </object>
+  <object name="manhuashu" x="434" y="158" width="31" height="21">
+   <properties>
+    <property name="id" value="1012"/>
+   </properties>
+  </object>
+  <object name="windows" x="227" y="373" width="56" height="23">
+   <properties>
+    <property name="id" value="1014"/>
+   </properties>
+  </object>
+  <object name="zoulang" x="210" y="93">
+   <properties>
+    <property name="id" value="1016"/>
+   </properties>
+  </object>
+  <object name="qinfang" x="285" y="61" width="30" height="28">
+   <properties>
+    <property name="id" value="1017"/>
+    <property name="need" value="蓝钥匙"/>
+   </properties>
+  </object>
+  <object name="jiangfang" x="5" y="64" width="34" height="36">
+   <properties>
+    <property name="id" value="1018"/>
+    <property name="need" value="红钥匙"/>
+   </properties>
+  </object>
+  <object name="weishengjian" x="165" y="363" width="38" height="26">
+   <properties>
+    <property name="id" value="1019"/>
+   </properties>
+  </object>
+  <object name="guizi" x="227" y="373" width="56" height="23">
+   <properties>
+    <property name="id" value="1011"/>
+   </properties>
+  </object>
+  <object name="mima" x="127" y="216" width="60" height="40">
+   <properties>
+    <property name="id" value="1015"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Meta" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt10Fu3EAMBVGfLKf3wbLwIovAcUYj6lNfr4DattjNGgP+/PXx8UmSJEmSJEmSJEmSJEky7ne0f/vOTpD4ZjMbd5zgKfe8Cl198ZR7XoWuvnjKPa9CV5hAVwAAAAAmePd/jaTYS7oNXXWSbkNXnaTb0FUn6TZ01UG6BV11km5BV52kW9BcJ+l966qT9L511Ul637rqJL1vXXWS3reuOknvW1edpPetq07S+9ZVJ3fZg67+kP6NNu3hjjNPkW5DV52k29BVJ+k2dJWbZXKedBu6ys2iK11NzKIrXU3Moqt7NLdprvQ7pfevq9wsqXfagq5mZtGVriZm0ZWuJmbRla5wPm1dbZr5yegKE+gKE+iqg20701UH23amqw627aytq6eSfpsjHW3Y39a5tpB+m7t2hX9z5s6OnKGrTnSF7ejqeZyxv5/2Ovk3T1c7ae5qqw38dD9d6eoIutpnA7raZwN36yq9c139H+1dnfUWZ+5fV7rS1TF0dc3Zr3ynAV1dc/Yr32lAV9ec/cp3Xn2TjbR3lTj7jNl0pStd/c3dujpyD11dj66On6Gr79HV8TN01U+iq6lZkeOsv5XvnDk1O3JMdLVlduTQFSbQFSbQFa7gTl3hPugKE+hmlobf6JH573rXu/BOV1t61NU+dKWrCXRFkiTJCX8D0g7v7g==
+  </data>
+ </layer>
+ <objectgroup name="Pos" width="150" height="100">
+  <object name="leadRoom" x="166" y="66">
+   <properties>
+    <property name="from" value="keting"/>
+    <property name="to" value="leadRoom"/>
+   </properties>
+   <polyline points="0,0 20,0"/>
+  </object>
+  <object name="qine_room" x="289" y="66">
+   <properties>
+    <property name="from" value="keting"/>
+    <property name="to" value="qine_room"/>
+   </properties>
+   <polyline points="0,0 21,0"/>
+  </object>
+  <object name="jiangwang_room" x="7" y="70">
+   <properties>
+    <property name="from" value="keting"/>
+    <property name="to" value="jiangwang_room"/>
+   </properties>
+   <polyline points="0,0 0,27"/>
+  </object>
+ </objectgroup>
+</map>

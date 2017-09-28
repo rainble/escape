@@ -1,0 +1,50 @@
+{
+	"Items" : [
+		{"id": "1001", "name": "黄钥匙", "description": "一把钥匙"},
+		{"id": "1002", "name": "日记的碎片", "description": "一个日记本"},
+		{"id": "1003", "name": "录像带", "description": "一个录像带"},
+		{"id": "1004", "name": "扑克牌", "description": "一副扑克牌"},
+		{"id": "1005", "name": "红钥匙", "description": "一把钥匙"},
+		{"id": "1006", "name": "蓝钥匙", "description": "一把钥匙"},
+		{"id": "1007", "name": "面具", "description": "一个恐怖的面具"},
+		{"id": "1008", "name": "推理题书", "description": "一本《推理趣味问题大合集！是男人就答到一百道！》"},
+		{"id": "1009", "name": "食物", "description": "一小堆食物"},
+		{"id": "1010", "name": "子弹痕迹", "description": "电视柜后面有子弹的痕迹"},
+		{"id": "1011", "name": "上锁柜子", "description": "一个上锁的柜子"},
+		{"id": "1012", "name": "漫画书", "description": "一本金田一少年事件簿十金田一少年的杀人"},
+		{"id": "1014", "name": "窗户", "description": "被钉死的窗户"},
+		{"id": "1015", "name": "密码", "description": "垃圾桶里的密码"},
+		{"id": "1016", "name": "走廊", "description": "一条走廊"},
+		{"id": "1017", "name": "别的房间1", "description": "上锁的房间"},
+		{"id": "1018", "name": "别的房间2", "description": "上锁的房间"},
+		{"id": "1019", "name": "卫生间", "description": "一间卫生间"},
+
+		{"id": "2001", "name": "白钥匙", "description": "一把钥匙"},
+		{"id": "2002", "name": "纽扣", "description": "一个纽扣"},
+		{"id": "2003", "name": "曲别针", "description": "一个曲别针"},
+		{"id": "2004", "name": "打火机", "description": "一个打火机"},
+		{"id": "2005", "name": "餐巾纸", "description": "一盒餐巾纸"},
+		{"id": "2006", "name": "医用棉签", "description": "一袋医用棉签"},
+		{"id": "2007", "name": "笔记本", "description": "一个笔记本"},
+		{"id": "2008", "name": "圆珠笔", "description": "一支圆珠笔"},
+		{"id": "2009", "name": "一页日记", "description": "一页日记"},
+		{"id": "2011", "name": "老旧的密码箱", "description": "一个老旧的密码箱"},
+		{"id": "2012", "name": "密码", "description": "一串密码"},
+		{"id": "2014", "name": "房门", "description": "上锁的房门"},
+
+		{"id": "3001", "name": "字", "description": "复仇两个字"},
+		{"id": "3002", "name": "打印纸", "description": "一张揉成团的打印纸"},
+		{"id": "3003", "name": "黑钥匙", "description": "一把钥匙"},
+		{"id": "3004", "name": "小说", "description": "一本《旅鸽的祈祷》"},
+		{"id": "3005", "name": "喷雾", "description": "一瓶喷雾"},
+		{"id": "3006", "name": "画", "description": "一副风景画，画的是有三口棺材的墓地"},
+		{"id": "3007", "name": "密码", "description": "一串密码"},
+
+		{"id": "4001", "name": "警官证", "description": "一本警官证"},
+		{"id": "4002", "name": "几页日记", "description": "几页日记"},
+		{"id": "4003", "name": "翻过的小说", "description": "一本《天动奇想》"},
+        {"id": "4004", "name": "邀请函", "description": "一封邀请函"},
+        {"id": "4005", "name": "崭新的密码箱", "description": "一个崭新的密码箱"}
+
+	]
+}
